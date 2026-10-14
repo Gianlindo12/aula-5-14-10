@@ -4,3 +4,5 @@ Kustomize Version: v5.8.1
  passo 2: kubectl get nodes 
 NAME           STATUS   ROLES           AGE   VERSION
 controlplane   Ready    control-plane   9d    v1.36.1
+passo 3: kubectl create deployment web-aula5 --image=nginx:alpine
+deployment.apps/web-aula5 created

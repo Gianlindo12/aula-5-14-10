@@ -6,3 +6,6 @@ NAME           STATUS   ROLES           AGE   VERSION
 controlplane   Ready    control-plane   9d    v1.36.1
 passo 3: kubectl create deployment web-aula5 --image=nginx:alpine
 deployment.apps/web-aula5 created
+passo 4:  kubectl get deployments
+NAME        READY   UP-TO-DATE   AVAILABLE   AGE
+web-aula5   1/1     1            1   
